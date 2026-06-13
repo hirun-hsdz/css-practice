@@ -56,4 +56,35 @@ nav ul li:hover{
     transition:0.5s;
 }
 
+/* Hero Section */
+
+.hero{
+    text-align:center;
+    padding:80px 20px;
+    background:white;
+}
+
+.hero h2{
+    font-size:35px;
+    margin-bottom:15px;
+}
+
+.hero p{
+    margin-bottom:20px;
+}
+
+button{
+    padding:12px 25px;
+    border:none;
+    background:#0077cc;
+    color:white;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+button:hover{
+    background:#005999;
+    transition:0.5s;
+}
+
 
