@@ -105,4 +105,28 @@ button:hover{
     margin-bottom:30px;
 }
 
+/* Flexbox */
+
+.card-container{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+/* Cards */
+
+.card{
+    width:250px;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+    text-align:center;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    transition:0.5s;
+}
 
