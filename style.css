@@ -30,3 +30,30 @@ header p{
     margin-top:10px;
 }
 
+/* Navigation */
+
+nav{
+    background:#333;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    justify-content:center;
+}
+
+nav ul li{
+    padding:15px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+}
+
+nav ul li:hover{
+    background:#0077cc;
+    transition:0.5s;
+}
+
+
